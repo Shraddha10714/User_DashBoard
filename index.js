@@ -14,7 +14,7 @@ signupform.addEventListener('submit', onSubmit);
 
 function onSubmit(e){
     e.preventDefault();
-//
+
     if(nameInput.value==='' || emailInput.value===''||passwordInput.value===''||reEnterPassword.value===''){
         msg.classList.add('error');
         msg.innerHTML='Please fill all the details';
